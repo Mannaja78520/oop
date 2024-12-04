@@ -1,34 +1,21 @@
 public class Patient {
     private long id;
     private String name;
-    private int birthYear;
-    private double height;
-    private double weight;
-
-    private int defaultBirthYear = 2000;
-    private double defaultHeight = 150.00;
-    private double defaultWeight = 50.00;
+    private int birthYear = 2000;
+    private double height = 150.0;
+    private double weight = 50.0;
     
     public Patient(long id, String name, int birthYear, double height, double weight) {
         this.id = id;
         this.name = name;
 
-        if (birthYear < 0) {
-            System.out.println("Invite birthday input change to defaultBirthYear.");
-            this.birthYear = this.defaultBirthYear;
-        }
+        if (birthYear < 0) System.out.println("Invite birthday input, Change to defaultBirthYear.");
         else this.birthYear = birthYear;
         
-        if (height < 0) {
-            System.out.println("Invalid height input change to defaultHeight.");
-            this.height = this.defaultHeight;
-        }
+        if (height < 0) System.out.println("Invalid height input, Change to defaultHeight.");
         else this.height = height;
 
-        if (weight < 0) {
-            System.out.println("Invalid weight input change to defaultWeight.");
-            this.weight = this.defaultWeight;
-        }
+        if (weight < 0) System.out.println("Invalid weight input, Change to defaultWeight.");
         else this.weight = weight;
     }
 
