@@ -1,0 +1,24 @@
+[submodule "week1/261200-2567-2-Lab01-2"]
+    path = week1/261200-2567-2-Lab01-2
+    url = https://github.com/Mannaja78520/261200-2567-2-Lab01-2.git
+
+[submodule "week2/261200-2567-2-Lab02-2"]
+    path = week2/261200-2567-2-Lab02-2
+    url = https://github.com/Mannaja78520/261200-2567-2-Lab02-2.git
+
+[submodule "week3/261200-2567-2-Lab03-2"]
+    path = week3/261200-2567-2-Lab03-2
+    url = https://github.com/Mannaja78520/261200-2567-2-Lab03-2.git
+
+[submodule "week4/261200-2567-2-Lab04-2"]
+    path = week4/261200-2567-2-Lab04-2
+    url = https://github.com/Mannaja78520/261200-2567-2-Lab04-2.git
+
+[submodule "week5/261200-2567-2-Lab05-1"]
+    path = week5/261200-2567-2-Lab05-1
+    url = https://github.com/Mannaja78520/261200-2567-2-Lab05-1.git
+
+[submodule "week5/261200-2567-2-Lab05-2"]
+    path = week5/261200-2567-2-Lab05-2
+    url = https://github.com/Mannaja78520/261200-2567-2-Lab05-2.git
+
